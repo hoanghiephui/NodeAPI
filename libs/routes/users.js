@@ -20,4 +20,8 @@ router.get('/info', passport.authenticate('bearer', { session: false }),
     }
 );
 
+router.post('/register', function (req, res, next) {
+    
+});
+
 module.exports = router;
